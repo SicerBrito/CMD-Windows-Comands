@@ -30,8 +30,15 @@ Estos son algunos ```Comandos``` cuanto menos ```Interesantes```, ```Útiles```,
 
     - ### Curiosos
     - ### Útiles
-        Comando para ver la contraseña del WIFI con conexión Inalámbrica.
-        - ```netsh wlan show profile``` Muestra la lista de redes a las que has estado o estas conectado en estos momentos
-        - ```netsh wlan show profile name=nombre key=clear```
+        Comandos para ver la contraseña del WIFI con conexión Inalámbrica.
+        
+        - Este comando muestra la lista de redes a las que has estado o estas conectado en estos momentos
+
+            ```netsh wlan show profile```
+
+        - Este comando 
+        
+            ```netsh wlan show profile name=nombre key=clear```
+
     - ### Interesantes
     - ### Divertidos
