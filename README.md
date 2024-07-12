@@ -38,7 +38,7 @@ Estos son algunos ```Comandos``` cuanto menos ```Interesantes```, ```Útiles```,
             netsh wlan show profile
             ```
 
-        - Este comando 
+        - Este comando nos permite ver la configuración de la red que elijamos, solo de debe cambiar "nombre" por el nombre de alguna red mostrada en el comando anterior
         
             ```
             netsh wlan show profile name=nombre key=clear
