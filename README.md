@@ -26,10 +26,10 @@ Estos son algunos ```Comandos``` cuanto menos ```Interesantes```, ```Útiles```,
 
 ---
 
- - ## Comandos
+ - ## ```Comandos```
 
-    - ### Curiosos
-    - ### Útiles
+    - ### ```Curiosos```
+    - ### ```Útiles```
         Comandos para ver la contraseña del WIFI con conexión Inalámbrica.
 
         - Este comando muestra la lista de redes a las que has estado o estas conectado en estos momentos
@@ -44,5 +44,23 @@ Estos son algunos ```Comandos``` cuanto menos ```Interesantes```, ```Útiles```,
             netsh wlan show profile name=nombre key=clear
             ```
 
-    - ### Interesantes
-    - ### Divertidos
+    - ### ```Interesantes```
+    - ### ```Divertidos```
+      
+        - Este ```comando``` nos permite ver a un pajarito bailando en la ```Terminal```
+    
+        ```
+        curl ascii.live/rick
+        ```
+        
+       - Este ```comando``` nos permite ver el baile de Rick en la ```Terminal```
+    
+        ```
+        curl ascii.live/rick
+        ```
+        
+       - Este ```comando``` nos permite ver a Forrest correr en la ```Terminal```
+    
+        ```
+        curl ascii.live/forrest
+        ```     
