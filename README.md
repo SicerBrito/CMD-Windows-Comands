@@ -50,7 +50,7 @@ Estos son algunos ```Comandos``` cuanto menos ```Interesantes```, ```Útiles```,
         - Este ```comando``` nos permite ver a un pajarito bailando en la ```Terminal```
     
         ```
-        curl ascii.live/rick
+        curl parrot.live
         ```
         
        - Este ```comando``` nos permite ver el baile de Rick en la ```Terminal```
