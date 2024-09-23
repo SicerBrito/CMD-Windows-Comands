@@ -31,24 +31,24 @@ Estos son algunos ```Comandos``` cuanto menos ```Interesantes```, ```Útiles```,
     - ### ```Funcionales```
        - ```Creación de un ejecutable independiente```
 
-        Para crear un ejecutable independiente que incluya Python y todas las dependencias necesarias, seguiremos estos pasos usando PyInstaller:
+            Para crear un ejecutable independiente que incluya Python y todas las dependencias necesarias, seguiremos estos pasos usando PyInstaller:
       
-      1. Instala PyInstaller:
-          ```
-          pip install pyinstaller
-          ```
-      2. Navega hasta el directorio donde se encuentra tu script principal (script que quieras hacer ejecutable).
-      3. Ejecuta el siguiente comando para crear el ejecutable:
-          ```
-          pyinstaller --onefile --name NombreFinalScript el_script.py
-          ```
-      4. PyInstaller creará una carpeta llamada dist que contendrá tu ejecutable NombreFinalScript.exe.
-      5. Ahora puedes distribuir este archivo .exe a otros usuarios, y podrán ejecutarlo sin necesidad de instalar Python o las dependencias por separado.
-
-      **Nota: ** El archivo ejecutable resultante será significativamente más grande que el script original, ya que incluirá Python y todas las dependencias necesarias.
-      
-      "Algunos antivirus pueden marcar erróneamente los ejecutables creados con PyInstaller como maliciosos. Esto es un falso positivo común."
-
+          1. Instala PyInstaller:
+              ```
+              pip install pyinstaller
+              ```
+          2. Navega hasta el directorio donde se encuentra tu script principal (script que quieras hacer ejecutable).
+          3. Ejecuta el siguiente comando para crear el ejecutable:
+              ```
+              pyinstaller --onefile --name NombreFinalScript el_script.py
+              ```
+          4. PyInstaller creará una carpeta llamada dist que contendrá tu ejecutable NombreFinalScript.exe.
+          5. Ahora puedes distribuir este archivo .exe a otros usuarios, y podrán ejecutarlo sin necesidad de instalar Python o las dependencias por separado.
+    
+          **Nota: ** El archivo ejecutable resultante será significativamente más grande que el script original, ya que incluirá Python y todas las dependencias necesarias.
+          
+          "Algunos antivirus pueden marcar erróneamente los ejecutables creados con PyInstaller como maliciosos. Esto es un falso positivo común."
+    
 
 
     - ### ```Curiosos```
