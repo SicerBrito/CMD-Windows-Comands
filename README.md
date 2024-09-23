@@ -8,6 +8,7 @@
 Estos son algunos ```Comandos``` cuanto menos ```Interesantes```, ```Útiles```, ```Divertidos``` y ```Curiosos``` del ```CMD de Windows``` 💻. Espero que los disfruten y les sean útiles dependiendo de lo que necesiten o quieran realizar.
 
 - [Comandos](#comandos) 📄
+    - [Funcionales](#funcionales) 🕯
     - [Curiosos](#útiles) ⁉
     - [Útiles](#terminal) 🛠
         <!-- - [Estructura Base](#estructura-base) 🚧
