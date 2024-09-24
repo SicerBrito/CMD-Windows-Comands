@@ -6,6 +6,7 @@
    - [Creación de un ejecutable independiente](#creación-de-un-ejecutable-independiente)
    - [Compresión y descompresión de archivos](#compresión-y-descompresión-de-archivos)
    - [Combinar una imagen y un archivo](#combinar-una-imagen-y-un-archivo)
+   - [Crear una copia de seguridad del registro](#crear-una-copia-de-seguridad-del-registro)
 2. [Comandos Útiles](#comandos-útiles)
    - [Ver contraseña de WiFi](#ver-contraseña-de-wifi)
    - [Monitoreo de recursos del sistema](#monitoreo-de-recursos-del-sistema)
@@ -71,6 +72,16 @@ copy /b imagen.png + archivo.rar archivo_combinado.png
 ```
 
 Reemplaza `imagen.png` con el nombre de tu imagen, `archivo.rar` con el nombre del archivo que quieres ocultar, y `archivo_combinado.png` con el nombre que quieres darle al archivo resultante. Cuando abras `archivo_combinado.png`, podrás extraer el archivo oculto.
+
+### Crear una copia de seguridad del registro
+
+Puedes crear una copia de seguridad del registro de Windows utilizando el siguiente comando:
+
+```
+reg export HKEY_CURRENT_USER backup_registro.reg
+```
+
+Este comando exportará todo el registro de usuario actual a un archivo llamado `backup_registro.reg`. Posteriormente, podrás importar este archivo para restaurar la configuración del registro en caso de ser necesario.
 
 ## Comandos Útiles
 
@@ -174,9 +185,3 @@ curl ascii.live/forrest
 ```
 
 Este comando mostrará una animación de Forrest Gump corriendo en la terminal.
-
-
-
-
-
-
