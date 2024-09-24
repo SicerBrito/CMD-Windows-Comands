@@ -9,6 +9,8 @@
 2. [Comandos Útiles](#comandos-útiles)
    - [Ver contraseña de WiFi](#ver-contraseña-de-wifi)
    - [Monitoreo de recursos del sistema](#monitoreo-de-recursos-del-sistema)
+   - [Desbloquear una cuenta de usuario](#desbloquear-una-cuenta-de-usuario)
+   - [Enviar mensaje a usuarios conectados](#enviar-mensaje-a-usuarios-conectados)
 3. [Comandos Interesantes](#comandos-interesantes)
    - [Mostrar la película de Star Wars](#mostrar-la-película-de-star-wars)
    - [Calculadora científica](#calculadora-científica)
@@ -103,6 +105,28 @@ Estos comandos te permiten monitorear el uso de recursos del sistema, como CPU, 
   wmic logicaldisk get Size, FreeSpace, DeviceID
   ```
 
+### Desbloquear una cuenta de usuario
+
+Puedes usar este comando para desbloquear una cuenta de usuario que haya sido bloqueada, por ejemplo, debido a intentos fallidos de inicio de sesión:
+
+```
+net user usuario /active:yes
+```
+
+Reemplaza `usuario` por el nombre de la cuenta que deseas desbloquear. Ten en cuenta que este comando debe ser utilizado con precaución, ya que podría permitir que usuarios no autorizados accedan a cuentas que han sido bloqueadas por razones de seguridad.
+
+### Enviar mensaje a usuarios conectados
+
+Este comando te permite enviar un mensaje de texto a otros usuarios que estén conectados al mismo sistema Windows:
+
+```
+msg usuario Hola, este es un mensaje para ti.
+```
+
+Reemplaza `usuario` por el nombre de la cuenta a la que deseas enviar el mensaje. Puedes ver la lista de usuarios conectados utilizando el comando `query user`.
+
+Usa este comando con prudencia, ya que podría utilizarse para enviar mensajes molestos o no deseados a otros usuarios.
+
 ## Comandos Interesantes
 
 ### Mostrar la película de Star Wars
@@ -150,5 +174,9 @@ curl ascii.live/forrest
 ```
 
 Este comando mostrará una animación de Forrest Gump corriendo en la terminal.
+
+
+
+
 
 
