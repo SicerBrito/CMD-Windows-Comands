@@ -5,6 +5,7 @@
 1. [Comandos Funcionales](#comandos-funcionales)
    - [Creación de un ejecutable independiente](#creación-de-un-ejecutable-independiente)
    - [Compresión y descompresión de archivos](#compresión-y-descompresión-de-archivos)
+   - [Combinar una imagen y un archivo](#combinar-una-imagen-y-un-archivo)
 2. [Comandos Útiles](#comandos-útiles)
    - [Ver contraseña de WiFi](#ver-contraseña-de-wifi)
    - [Monitoreo de recursos del sistema](#monitoreo-de-recursos-del-sistema)
@@ -58,6 +59,16 @@ Windows dispone de herramientas integradas para comprimir y descomprimir archivo
   ```
   unrar x archivo.rar
   ```
+
+### Combinar una imagen y un archivo
+
+Puedes combinar una imagen y un archivo de forma que el archivo quede "oculto" dentro de la imagen. Esto puede ser útil para enviar archivos de forma más discreta o esconderlos visualmente. El comando para hacer esto es:
+
+```
+copy /b imagen.png + archivo.rar archivo_combinado.png
+```
+
+Reemplaza `imagen.png` con el nombre de tu imagen, `archivo.rar` con el nombre del archivo que quieres ocultar, y `archivo_combinado.png` con el nombre que quieres darle al archivo resultante. Cuando abras `archivo_combinado.png`, podrás extraer el archivo oculto.
 
 ## Comandos Útiles
 
@@ -139,3 +150,5 @@ curl ascii.live/forrest
 ```
 
 Este comando mostrará una animación de Forrest Gump corriendo en la terminal.
+
+
