@@ -1,5 +1,7 @@
 # Comandos CMD de Windows
 
+Se agradecen aportaciones o recomendaciones para poder incluirlos
+
 ## Índice
 
 1. [Comandos Funcionales](#comandos-funcionales)
@@ -124,6 +126,15 @@ net user usuario /active:yes
 ```
 
 Reemplaza `usuario` por el nombre de la cuenta que deseas desbloquear. Ten en cuenta que este comando debe ser utilizado con precaución, ya que podría permitir que usuarios no autorizados accedan a cuentas que han sido bloqueadas por razones de seguridad.
+
+En caso de no conocer o simplemente deseas saber cuales son los usuarios disponibles para utilizar este comando:
+```
+net user
+```
+o
+```
+wmic useraccount get name
+```
 
 ### Enviar mensaje a usuarios conectados
 
