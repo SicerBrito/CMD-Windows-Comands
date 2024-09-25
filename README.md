@@ -14,7 +14,6 @@
    - [Enviar mensaje a usuarios conectados](#enviar-mensaje-a-usuarios-conectados)
 3. [Comandos Interesantes](#comandos-interesantes)
    - [Mostrar la película de Star Wars](#mostrar-la-película-de-star-wars)
-   - [Calculadora científica](#calculadora-científica)
 4. [Comandos Divertidos](#comandos-divertidos)
    - [Ver un pájaro bailando](#ver-un-pájaro-bailando)
    - [Ver el baile de Rick](#ver-el-baile-de-rick)
@@ -149,16 +148,6 @@ telnet towel.blinkenlights.nl
 ```
 
 Al ejecutar este comando, la terminal mostrará la película de Star Wars ASCII art, proporcionando una experiencia única y divertida.
-
-### Calculadora científica
-
-Windows también incluye una calculadora científica que puedes acceder desde la terminal:
-
-```
-calc
-```
-
-Al ejecutar este comando, se abrirá la calculadora científica de Windows, donde podrás realizar operaciones matemáticas avanzadas.
 
 ## Comandos Divertidos
 
