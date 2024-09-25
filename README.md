@@ -185,3 +185,4 @@ curl ascii.live/forrest
 ```
 
 Este comando mostrará una animación de Forrest Gump corriendo en la terminal.
+
